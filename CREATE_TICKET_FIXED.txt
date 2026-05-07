@@ -1,0 +1,12 @@
+Fixed:
+- Create ticket API
+- client_name column
+- sla_due_at column
+- Project fallback
+- UI success/error messages
+- Client dropdown from Settings
+
+Run:
+npm install
+npm run build
+npm start

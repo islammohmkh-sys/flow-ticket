@@ -1,0 +1,10 @@
+Final clean build:
+- requirePermission fixed
+- create ticket fixed
+- client dropdown kept
+- reports/deploy removed
+
+Run:
+npm install
+npm run build
+npm start

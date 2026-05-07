@@ -1,0 +1,15 @@
+Flow Ticket Enterprise v6.4
+
+Arabic:
+- تطوير زر تغيير اللغة بين العربية والإنجليزية.
+- عند التحويل إلى العربية يتم تفعيل RTL ونقل القوائم إلى اليمين.
+- عند التحويل إلى الإنجليزية يتم تفعيل LTR ونقل القوائم إلى اليسار.
+- تحسين UI/UX شاشة التذاكر بتصميم احترافي.
+- تحسين البحث والفلاتر وتجربة الموبايل.
+
+English:
+- Improved Arabic/English language switcher.
+- Arabic mode enables RTL and moves navigation to the right.
+- English mode enables LTR and moves navigation to the left.
+- Professional tickets UI/UX polish.
+- Better search/filter usability and mobile responsiveness.

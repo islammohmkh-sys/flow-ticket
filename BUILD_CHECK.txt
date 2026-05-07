@@ -1,0 +1,40 @@
+ite3
+npm error command failed
+npm error command sh -c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install getaddrinfo EAI_AGAIN github.com
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.0.0
+npm error gyp info using node@22.16.0 | linux | x64
+npm error gyp info find Python using Python version 3.13.5 found at "/opt/pyvenv/bin/python3"
+npm error gyp http GET https://nodejs.org/download/release/v22.16.0/node-v22.16.0-headers.tar.gz
+npm error gyp http fetch GET https://nodejs.org/download/release/v22.16.0/node-v22.16.0-headers.tar.gz attempt 1 failed with EAI_AGAIN
+npm error gyp WARN install got an error, rolling back install
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack FetchError: request to https://nodejs.org/download/release/v22.16.0/node-v22.16.0-headers.tar.gz failed, reason: getaddrinfo EAI_AGAIN nodejs.org
+npm error gyp ERR! stack at ClientRequest.<anonymous> (/opt/nvm/versions/node/v22.16.0/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+npm error gyp ERR! stack at ClientRequest.emit (node:events:518:28)
+npm error gyp ERR! stack at emitErrorEvent (node:_http_client:104:11)
+npm error gyp ERR! stack at _destroy (node:_http_client:898:9)
+npm error gyp ERR! stack at onSocketNT (node:_http_client:918:5)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+npm error gyp ERR! System Linux 4.4.0
+npm error gyp ERR! command "/opt/nvm/versions/node/v22.16.0/bin/node" "/opt/nvm/versions/node/v22.16.0/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd /mnt/data/flow-ticket-client-create-fixed-work/flow-ticket-enterprise-final/node_modules/better-sqlite3
+npm error gyp ERR! node -v v22.16.0
+npm error gyp ERR! node-gyp -v v11.0.0
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: /home/oai/.npm/_logs/2026-05-03T08_19_42_397Z-debug-0.log
+
+BUILD:
+
+> client@stable-1.0.0 build
+> vite build
+
+sh: 1: vite: Permission denied
+npm error Lifecycle script `build` failed with error:
+npm error code 127
+npm error path /mnt/data/flow-ticket-client-create-fixed-work/flow-ticket-enterprise-final/client
+npm error workspace client@stable-1.0.0
+npm error location /mnt/data/flow-ticket-client-create-fixed-work/flow-ticket-enterprise-final/client
+npm error command failed
+npm error command sh -c vite build

@@ -1,0 +1,18 @@
+Flow Ticket v6.3 - Real-time Advanced Notifications
+
+Implemented in this full project version:
+- Socket.IO real-time notification delivery.
+- System sound alert for new notifications.
+- Sidebar unread notification badge counter.
+- Notification Center UX redesign with severity colors.
+- Pagination / Load More for notifications.
+- Mark all as read.
+- Soft delete per user using notification_users collection.
+- RBAC: Notifications visible only for Admin, Manager, User.
+- Backend notification schema: notifications + notification_users.
+- Real-time count update after read/delete.
+
+Render Settings:
+Root Directory: empty
+Build Command: npm install && npm run build
+Start Command: npm start

@@ -1,0 +1,17 @@
+Flow Ticket Enterprise v6.4.6
+
+Fixes:
+- Fixed hidden sidebar menu labels.
+- Merged labels + translations into one safe t object.
+- Added fallback labels for all navigation buttons.
+- Prevented undefined user name/role display.
+- Added CSS visibility rules for sidebar/nav.
+- Kept RTL/LTR and lang compatibility fixes.
+
+Deploy:
+git add .
+git commit -m "v6.4.6 fix menu labels and translations"
+git push origin main --force
+
+Render:
+Manual Deploy -> Clear build cache & deploy

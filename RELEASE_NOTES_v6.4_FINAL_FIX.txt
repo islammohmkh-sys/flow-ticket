@@ -1,0 +1,16 @@
+Flow Ticket Enterprise v6.4 Final Fix
+
+Fixes:
+- Removed duplicate language state declarations from client/src/App.jsx.
+- Removed duplicate setLanguage / toggleLanguage / t declarations.
+- Ensured one stable RTL/LTR language system.
+- Added final CSS direction rules for Arabic RTL and English LTR.
+- Kept Tickets UI/UX improvements.
+
+Deploy:
+git add .
+git commit -m "fix v6.4 language duplicate declarations"
+git push origin main --force
+
+Render:
+Manual Deploy -> Clear build cache & deploy

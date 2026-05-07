@@ -1,0 +1,20 @@
+{
+  "name": "flow-ticket-enterprise-v6-5-create-ticket-ux",
+  "version": "6.5.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently -n API,WEB -c blue,green \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
+    "start": "node server/src/index.js",
+    "final": "npm run build && npm start",
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "type": "module"
+}

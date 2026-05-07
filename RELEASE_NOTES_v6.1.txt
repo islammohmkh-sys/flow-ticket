@@ -1,0 +1,27 @@
+Flow Ticket v6.1 - Security + UX Update
+
+Implemented:
+1. Security:
+   - Helmet secure headers.
+   - API rate limiting.
+   - Login-specific stricter rate limiting.
+2. Validation:
+   - Sanitized strings.
+   - Required title validation.
+   - Allowed status / priority / ticket type values.
+   - Safer patch update whitelist.
+3. Search & Filters:
+   - Server-side search across ticket number, title, description, requester, client, system, owner, label.
+   - Server-side filters by status, priority, owner, type, subsystem, client.
+   - Pagination support.
+   - Client filter added in Tickets screen.
+
+Render:
+Root Directory: empty
+Build Command: npm install && npm run build
+Start Command: npm start
+
+Environment:
+MONGO_URI
+JWT_SECRET
+NODE_ENV=production

@@ -1,0 +1,19 @@
+Final Render MongoDB Version
+
+Fixes:
+- Render port scan timeout: server opens process.env.PORT immediately.
+- Mongo connection: clear logs and safe error display.
+
+Render:
+Root Directory: empty
+Build Command: npm install && npm run build
+Start Command: npm start
+
+Environment:
+MONGO_URI=mongodb+srv://islammohmkh_db_user:Islam1245@cluster0.nbekgbl.mongodb.net/flow-ticket?retryWrites=true&w=majority
+JWT_SECRET=any-long-secret
+NODE_ENV=production
+
+MongoDB Atlas:
+- IP Access List includes 0.0.0.0/0
+- Database user password matches MONGO_URI

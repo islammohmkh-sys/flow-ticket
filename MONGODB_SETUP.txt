@@ -1,0 +1,20 @@
+Flow Ticket MongoDB Version
+
+Required Render Environment Variables:
+1) NODE_ENV=production
+2) MONGO_URI=mongodb+srv://USERNAME:PASSWORD@cluster0.xxxxx.mongodb.net/flow_ticket?retryWrites=true&w=majority
+3) JWT_SECRET=any-long-secret-value
+
+Render settings:
+Root Directory: empty
+Build Command: npm install && npm run build
+Start Command: npm start
+
+After uploading to GitHub:
+Manual Deploy -> Clear build cache & deploy
+
+Default login after first start:
+admin / admin123
+
+Data is stored in MongoDB Atlas collections:
+users, tickets, list_items, comments, activities

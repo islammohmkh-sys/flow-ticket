@@ -1,0 +1,17 @@
+Flow Ticket Enterprise v6.4.4
+
+Final fixes:
+- Fixed white screen risk by adding React Error Boundary.
+- Rebuilt language logic inside App.jsx.
+- Removed duplicate t/language/toggleLanguage definitions.
+- Removed legacy labels[lang] conflict.
+- Added safe translation fallback: translations?.[language] || translations?.ar || {}.
+- Kept RTL/LTR direction switching and sidebar movement.
+
+Deploy:
+git add .
+git commit -m "v6.4.4 fix white screen and language system"
+git push origin main --force
+
+Render:
+Manual Deploy -> Clear build cache & deploy
