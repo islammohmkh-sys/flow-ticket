@@ -1,0 +1,16 @@
+Flow Ticket Enterprise v6.4.3
+
+Final Build Fix:
+- Removed duplicate const t declarations.
+- Removed legacy labels[lang] translator conflict.
+- Removed legacy lang state that conflicted with the new language system.
+- Kept one translation variable only: const t = translations[language] || translations.ar.
+- Kept RTL/LTR sidebar layout fix.
+
+Deploy:
+git add .
+git commit -m "v6.4.3 final duplicate t fix"
+git push origin main --force
+
+Render:
+Manual Deploy -> Clear build cache & deploy

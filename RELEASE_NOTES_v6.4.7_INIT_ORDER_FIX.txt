@@ -1,0 +1,17 @@
+Flow Ticket Enterprise v6.4.7
+
+Fixes:
+- Fixed runtime error: Cannot access variable before initialization.
+- Removed early references to labels before declaration.
+- Rebuilt t as a safe local object based on language.
+- Kept compatibility alias lang = language.
+- Preserved RTL/LTR sidebar movement.
+- Kept white-screen Error Boundary.
+
+Deploy:
+git add .
+git commit -m "v6.4.7 fix initialization order and menu labels"
+git push origin main --force
+
+Render:
+Manual Deploy -> Clear build cache & deploy

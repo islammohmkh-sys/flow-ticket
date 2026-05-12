@@ -1,0 +1,12 @@
+Run final stable version:
+
+npm install
+npm run build
+npm start
+
+Open:
+http://localhost:4000
+
+Login:
+admin / admin123
+user / user123

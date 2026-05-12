@@ -1,0 +1,20 @@
+Flow Ticket Enterprise v6.5.1
+
+Latest fixes:
+- Fixed notification delete behavior.
+- Delete for me now calls backend DELETE /api/notifications/:id.
+- Deleted notification is removed from UI state immediately.
+- Unread counter updates after delete/read.
+- Added backend notification delete/read endpoints.
+- Kanban board redesigned with calmer Soft Enterprise UI.
+- Removed heavy black ticket shadow/overlay.
+- Improved ticket card readability, shadows, borders and colors.
+- Softer column backgrounds and calmer priority badges.
+
+Deploy:
+git add .
+git commit -m "v6.5.1 notifications delete fix and soft kanban redesign"
+git push origin main --force
+
+Render:
+Manual Deploy -> Clear build cache & deploy
