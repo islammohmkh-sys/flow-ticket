@@ -1,0 +1,6 @@
+Flow Ticket Enterprise v6.5.5 — Premium Enterprise UI
+Based on v6.5.4 Soft UI.
+- Applied muted enterprise design tokens and global styling for layout, sidebar, cards, forms, tables, buttons, focus states, hover states and mobile layouts.
+- Updated hardcoded ticket/status/priority/chart palette values in App.jsx.
+- Preserved application logic and server code.
+- Note: visual browser QA and production integration tests have not been performed in this environment.

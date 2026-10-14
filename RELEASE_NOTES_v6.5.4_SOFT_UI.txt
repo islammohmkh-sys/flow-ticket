@@ -1,0 +1,18 @@
+
+Flow Ticket Enterprise v6.5.4
+
+- Full soft UI redesign
+- Calm eye-friendly color palette
+- Softer dashboard and kanban colors
+- Cleaner tables and forms
+- Improved spacing and readability
+- Modern enterprise gradients
+- Better shadows and borders
+
+Deploy:
+git add .
+git commit -m "v6.5.4 soft ui redesign"
+git push origin main --force
+
+Render:
+Manual Deploy -> Clear build cache & deploy

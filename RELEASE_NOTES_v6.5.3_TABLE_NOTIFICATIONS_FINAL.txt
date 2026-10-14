@@ -1,0 +1,18 @@
+Flow Ticket Enterprise v6.5.3
+
+Fixes:
+- Fixed Delete and Email action buttons in Tickets table.
+- Final stronger notification delete fix:
+  - Save deleted notification ID and signature in localStorage.
+  - Filter deleted notifications every time the screen reloads.
+  - Delete hides notification immediately.
+  - Backend stores deleted notification record per user.
+- Kept calmer Kanban UI and removed heavy black overlay.
+
+Deploy:
+git add .
+git commit -m "v6.5.3 fix tickets actions and final notifications delete"
+git push origin main --force
+
+Render:
+Manual Deploy -> Clear build cache & deploy

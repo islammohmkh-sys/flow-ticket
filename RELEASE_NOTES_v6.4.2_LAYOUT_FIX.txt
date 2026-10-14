@@ -1,0 +1,17 @@
+Flow Ticket Enterprise v6.4.2
+
+Fix:
+- Strong RTL/LTR layout correction.
+- Arabic mode: sidebar and navigation stay on the right.
+- English mode: sidebar and navigation move to the left.
+- Fixed body/html direction classes.
+- Added stronger CSS overrides to prevent old layout rules from keeping sidebar on the right.
+- Extra Tickets UI polish.
+
+Deploy:
+git add .
+git commit -m "v6.4.2 fix rtl ltr sidebar layout"
+git push origin main --force
+
+Render:
+Manual Deploy -> Clear build cache & deploy

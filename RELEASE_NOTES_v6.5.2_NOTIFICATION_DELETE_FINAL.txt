@@ -1,0 +1,17 @@
+Flow Ticket Enterprise v6.5.2
+
+Fix:
+- Final fix for notifications not disappearing after Delete for me.
+- Added local persistent delete registry using localStorage.
+- Delete now hides notification immediately from screen.
+- Deleted notifications are filtered every time notifications are rendered or reloaded.
+- Backend stores per-user deleted notification records.
+- Kept v6.5.1 Soft Kanban UI improvements.
+
+Deploy:
+git add .
+git commit -m "v6.5.2 final notification delete persistence"
+git push origin main --force
+
+Render:
+Manual Deploy -> Clear build cache & deploy

@@ -1,0 +1,13 @@
+Flow Ticket Render Ready Version
+
+Render settings:
+- Root Directory: leave empty
+- Build Command: npm install && npm run build
+- Start Command: npm start
+- Environment Variable: NODE_ENV=production
+
+Important:
+- Backend and Frontend run on ONE Render Web Service.
+- Frontend API is relative: /api
+- Server serves client/dist automatically.
+- No localhost required online.

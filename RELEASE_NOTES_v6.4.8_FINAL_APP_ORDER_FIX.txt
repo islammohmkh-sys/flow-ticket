@@ -1,0 +1,18 @@
+Flow Ticket Enterprise v6.4.8
+
+Critical fix:
+- Fixed language initialization order inside App.jsx.
+- Moved t object outside useState initializer.
+- Fixed runtime error: Cannot access variable before initialization.
+- Kept lang compatibility alias.
+- Kept menu labels visible.
+- Kept RTL/LTR sidebar movement.
+- Kept Error Boundary.
+
+Deploy:
+git add .
+git commit -m "v6.4.8 fix language initialization order"
+git push origin main --force
+
+Render:
+Manual Deploy -> Clear build cache & deploy

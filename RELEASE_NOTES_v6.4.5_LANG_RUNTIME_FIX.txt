@@ -1,0 +1,17 @@
+Flow Ticket Enterprise v6.4.5
+
+Fixes:
+- Fixed runtime error: Can't find variable: lang.
+- Added safe compatibility alias: const lang = language.
+- Converted setLang calls to setLanguage.
+- Kept one safe translation object only: const t = translations?.[language] || translations?.ar || {}.
+- Removed old labels[lang] translator usage.
+- Kept Error Boundary to prevent white screen.
+
+Deploy:
+git add .
+git commit -m "v6.4.5 fix lang runtime error"
+git push origin main --force
+
+Render:
+Manual Deploy -> Clear build cache & deploy

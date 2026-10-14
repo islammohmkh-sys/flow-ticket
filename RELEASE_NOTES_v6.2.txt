@@ -1,0 +1,13 @@
+Flow Ticket Enterprise v6.2
+
+Added:
+- Advanced RBAC roles: Admin / Manager / User / Viewer.
+- Full Audit Log for login, ticket create/update/delete/status changes, user changes, comments, backups, attachments.
+- Stronger Login Protection with account lock after 5 failed attempts for 15 minutes and secure error messages.
+- MongoDB security guidance for least-privilege application user.
+- Backup export, startup/daily automatic backups, and restore endpoint.
+- UX improvements: clear messages, loading, empty states, confirm before delete, mobile CSS refinements.
+- Real pagination in tickets API.
+- Attachments stored securely in MongoDB with 5 MB limit.
+- Notifications for ticket creation and status changes.
+- Error tracking in error_logs collection and admin screen.

@@ -1,0 +1,3 @@
+Flow Ticket Enterprise V2
+Stable production-style package based on the complete Flow Ticket Enterprise system.
+Run: npm install && npm run dev

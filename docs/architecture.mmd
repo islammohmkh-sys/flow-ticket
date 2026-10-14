@@ -1,0 +1,9 @@
+flowchart LR
+  U[Users / Team] --> B[Browser]
+  B -->|HTTP :4000| S[Node.js + Express Server]
+  S --> API[REST API]
+  API --> DB[(SQLite Database)]
+  API --> XLSX[Excel Database Files]
+  API --> PDF[PDF Reports]
+  S --> UI[React Built Frontend]
+  UI --> B
